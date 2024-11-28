@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #444;
+    font-weight: bold;
+  }
+  
