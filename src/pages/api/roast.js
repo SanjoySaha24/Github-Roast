@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     const { followers, following, public_repos } = userData;
 
     // Construct the prompt for the roast
-    const prompt = `Generate a fun, light-hearted roast for a GitHub user named ${username}. Roast them based on the following GitHub stats: followers (${followers}), following (${following}), and repositories (${public_repos}). Keep it friendly and humorous.`;
+    const prompt = `Generate a fun, light-hearted roast for a GitHub user named ${username}. Roast them based on the following GitHub stats: followers (${followers}), following (${following}), and repositories (${public_repos}). Keep it friendly and humorous and also use emojis.`;
 
     // Generate content from the Gemini model
     const result = await model.generateContent([prompt]);
